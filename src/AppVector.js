@@ -1,19 +1,19 @@
 import './App.css'
 import 'leaflet/dist/leaflet.css'
 import {MapContainer, Marker, Popup} from 'react-leaflet'
-import L from 'leaflet'
+//import L from 'leaflet'
 import MarkerClusterGroup from "react-leaflet-cluster";
 import {MapLibreTileLayer} from "./MapLibreTileLayer.ts";
 import arcades from './arcades.json'
 
-delete L.Icon.Default.prototype._getIconUrl;
-
+//delete L.Icon.Default.prototype._getIconUrl;
+/*
 L.Icon.Default.mergeOptions({
   iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
   iconUrl: require('leaflet/dist/images/marker-icon.png'),
   shadowUrl: require('leaflet/dist/images/marker-shadow.png')
 });
-
+*/
 function AppVector() {
   return (
     <div className="App">
