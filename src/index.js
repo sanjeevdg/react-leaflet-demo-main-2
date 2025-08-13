@@ -6,7 +6,7 @@ import AppRaster from './AppRaster';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const useVectorTiles = true;
+const useVectorTiles = false;
 
 if (useVectorTiles) {
   root.render(
