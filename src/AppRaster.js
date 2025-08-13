@@ -25,7 +25,7 @@ function AppRaster() {
         maxBounds={[[-85.06, -180], [85.06, 180]]}
         scrollWheelZoom={true}>
         <TileLayer
-          attribution='&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors'
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://stadiamaps.com/">Stadia Maps</a>'
           url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png&api_key=b1eaa277-afbb-4968-b2de-a804eb44d959"
         />
         <MarkerClusterGroup>
