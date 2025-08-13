@@ -1,26 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import AppVector from './AppVector';
-import AppRaster from './AppRaster';
+//import AppVector from './AppVector';
+//import AppRaster from './AppRaster';
+import MapComponent from './MapComponent';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const useVectorTiles = false;
 
-if (useVectorTiles) {
   root.render(
 
-      <AppVector />
+      <MapComponent />
 
   );
-} else {
-  root.render(
-
-      <AppRaster />
-  
-  );
-}
 
 //  </React.StrictMode>     <React.StrictMode>     </React.StrictMode>  <React.StrictMode>
 
