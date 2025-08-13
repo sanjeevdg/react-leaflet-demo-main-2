@@ -26,7 +26,7 @@ function AppVector() {
         maxBounds={[[-85.06, -180], [85.06, 180]]}
         scrollWheelZoom={true}>
         <MapLibreTileLayer
-          attribution='&copy; <a href="https://api.stadiamaps.com/tz/lookup/v1?api_key=b1eaa277-afbb-4968-b2de-a804eb44d959">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors'
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://stadiamaps.com/">Stadia Maps</a>'
           url={require('./gameboy.json')}
         />
         <MarkerClusterGroup>
